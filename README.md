@@ -10,8 +10,7 @@
 ##### Start the server:
 
 ```bash
-cd webapp_workflow_automator/rest_api
-uvicorn server:app --reload
+uvicorn webapp_workflow_automator.rest_api.server:app --reload
 ```
 Server starts up at http://127.0.0.1:8000/
 
