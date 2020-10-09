@@ -14,6 +14,9 @@ uvicorn webapp_workflow_automator.rest_api.server:app --reload
 ```
 Server starts up at http://127.0.0.1:8000/
 
+Issue a search query:
+http://localhost:8000/?q=make+in+india
+
 For API docs, head to http://127.0.0.1:8000/docs in your browser to checkout the available API endpoints and their specifications.
 
 ##### Run build to generate a distributable artifact (.whl):
